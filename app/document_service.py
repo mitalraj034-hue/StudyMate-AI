@@ -9,7 +9,7 @@ from app.config import settings
 from app.models.document import Document
 from app.models.extra import DocumentChunk, ActivityLog, Summary
 from app.models.user import User
-from pdf_processor import extract_text_from_pdf, chunk_document
+from app.pdf_processor import extract_text_from_pdf, chunk_document
 from app.services.gemini_service import gemini_service
 from app.services.supabase_service import supabase_service
 from rag_engine import RAGEngine
