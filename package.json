@@ -1,0 +1,12 @@
+{
+  "name": "studymate-ai",
+  "private": true,
+  "version": "1.0.0",
+  "description": "StudyMate AI - Grounded Academic Study Assistant",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview",
+    "start": "python backend/seed_data.py && python -m uvicorn backend.main:app --host 127.0.0.1 --port 8000"
+  }
+}
