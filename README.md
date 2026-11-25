@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🤖 StudyMate AI — AI-Powered Grounded Academic Study Platform
 
 > **Study Smarter. Learn Faster. With StudyMate AI.**  
@@ -339,3 +340,6 @@ Interactive Swagger UI documentation is available at: **`http://127.0.0.1:8000/d
 ## 🎓 Academic Integrity & Hallucination Mitigation Note
 
 StudyMate AI employs strict prompt-engineering guardrails and dense vector relevance thresholds. When an inquiry falls outside the uploaded syllabus, the assistant explicitly alerts the student rather than synthesizing ungrounded assertions. Every proposition is linked to verified page metadata.
+=======
+# StudyMate-AI
+>>>>>>> 1cf9473be13a7fd5dcffe777a6a8361f86d540f0
